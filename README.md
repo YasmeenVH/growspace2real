@@ -14,4 +14,14 @@ If you forgot to do the `--recursive` during cloning, you can pull the submodule
 
     git submodule update --init --recursive
 
+---
 
+Once you've downloaded everything, first install the growspace library
+
+    cd growspace/
+    pip install -e .
+
+Then install the growspace2real package
+
+    cd ../
+    pip install -e .
